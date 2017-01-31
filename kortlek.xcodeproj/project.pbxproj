@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		497862541E41406E004321D4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 497862531E41406E004321D4 /* AppDelegate.swift */; };
+		497862561E41406E004321D4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 497862551E41406E004321D4 /* ViewController.swift */; };
+		497862591E41406E004321D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 497862571E41406E004321D4 /* Main.storyboard */; };
+		4978625B1E41406E004321D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4978625A1E41406E004321D4 /* Assets.xcassets */; };
+		4978625E1E41406E004321D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4978625C1E41406E004321D4 /* LaunchScreen.storyboard */; };
+		497862691E41406E004321D4 /* kortlekTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 497862681E41406E004321D4 /* kortlekTests.swift */; };
+		497862741E41406E004321D4 /* kortlekUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 497862731E41406E004321D4 /* kortlekUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		497862651E41406E004321D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 497862481E41406E004321D4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4978624F1E41406E004321D4;
+			remoteInfo = kortlek;
+		};
+		497862701E41406E004321D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 497862481E41406E004321D4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4978624F1E41406E004321D4;
+			remoteInfo = kortlek;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		497862501E41406E004321D4 /* kortlek.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kortlek.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		497862531E41406E004321D4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		497862551E41406E004321D4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		497862581E41406E004321D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4978625A1E41406E004321D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4978625D1E41406E004321D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4978625F1E41406E004321D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		497862641E41406E004321D4 /* kortlekTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = kortlekTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		497862681E41406E004321D4 /* kortlekTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kortlekTests.swift; sourceTree = "<group>"; };
+		4978626A1E41406E004321D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4978626F1E41406E004321D4 /* kortlekUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = kortlekUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		497862731E41406E004321D4 /* kortlekUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kortlekUITests.swift; sourceTree = "<group>"; };
+		497862751E41406E004321D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4978624D1E41406E004321D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		497862611E41406E004321D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4978626C1E41406E004321D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		497862471E41406D004321D4 = {
+			isa = PBXGroup;
+			children = (
+				497862521E41406E004321D4 /* kortlek */,
+				497862671E41406E004321D4 /* kortlekTests */,
+				497862721E41406E004321D4 /* kortlekUITests */,
+				497862511E41406E004321D4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		497862511E41406E004321D4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				497862501E41406E004321D4 /* kortlek.app */,
+				497862641E41406E004321D4 /* kortlekTests.xctest */,
+				4978626F1E41406E004321D4 /* kortlekUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		497862521E41406E004321D4 /* kortlek */ = {
+			isa = PBXGroup;
+			children = (
+				497862531E41406E004321D4 /* AppDelegate.swift */,
+				497862551E41406E004321D4 /* ViewController.swift */,
+				497862571E41406E004321D4 /* Main.storyboard */,
+				4978625A1E41406E004321D4 /* Assets.xcassets */,
+				4978625C1E41406E004321D4 /* LaunchScreen.storyboard */,
+				4978625F1E41406E004321D4 /* Info.plist */,
+			);
+			path = kortlek;
+			sourceTree = "<group>";
+		};
+		497862671E41406E004321D4 /* kortlekTests */ = {
+			isa = PBXGroup;
+			children = (
+				497862681E41406E004321D4 /* kortlekTests.swift */,
+				4978626A1E41406E004321D4 /* Info.plist */,
+			);
+			path = kortlekTests;
+			sourceTree = "<group>";
+		};
+		497862721E41406E004321D4 /* kortlekUITests */ = {
+			isa = PBXGroup;
+			children = (
+				497862731E41406E004321D4 /* kortlekUITests.swift */,
+				497862751E41406E004321D4 /* Info.plist */,
+			);
+			path = kortlekUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4978624F1E41406E004321D4 /* kortlek */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 497862781E41406E004321D4 /* Build configuration list for PBXNativeTarget "kortlek" */;
+			buildPhases = (
+				4978624C1E41406E004321D4 /* Sources */,
+				4978624D1E41406E004321D4 /* Frameworks */,
+				4978624E1E41406E004321D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = kortlek;
+			productName = kortlek;
+			productReference = 497862501E41406E004321D4 /* kortlek.app */;
+			productType = "com.apple.product-type.application";
+		};
+		497862631E41406E004321D4 /* kortlekTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4978627B1E41406E004321D4 /* Build configuration list for PBXNativeTarget "kortlekTests" */;
+			buildPhases = (
+				497862601E41406E004321D4 /* Sources */,
+				497862611E41406E004321D4 /* Frameworks */,
+				497862621E41406E004321D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				497862661E41406E004321D4 /* PBXTargetDependency */,
+			);
+			name = kortlekTests;
+			productName = kortlekTests;
+			productReference = 497862641E41406E004321D4 /* kortlekTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4978626E1E41406E004321D4 /* kortlekUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4978627E1E41406E004321D4 /* Build configuration list for PBXNativeTarget "kortlekUITests" */;
+			buildPhases = (
+				4978626B1E41406E004321D4 /* Sources */,
+				4978626C1E41406E004321D4 /* Frameworks */,
+				4978626D1E41406E004321D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				497862711E41406E004321D4 /* PBXTargetDependency */,
+			);
+			name = kortlekUITests;
+			productName = kortlekUITests;
+			productReference = 4978626F1E41406E004321D4 /* kortlekUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		497862481E41406E004321D4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Mats Hammarqvist";
+				TargetAttributes = {
+					4978624F1E41406E004321D4 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = F6VSMN9TJS;
+						ProvisioningStyle = Automatic;
+					};
+					497862631E41406E004321D4 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = F6VSMN9TJS;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4978624F1E41406E004321D4;
+					};
+					4978626E1E41406E004321D4 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = F6VSMN9TJS;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4978624F1E41406E004321D4;
+					};
+				};
+			};
+			buildConfigurationList = 4978624B1E41406E004321D4 /* Build configuration list for PBXProject "kortlek" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 497862471E41406D004321D4;
+			productRefGroup = 497862511E41406E004321D4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4978624F1E41406E004321D4 /* kortlek */,
+				497862631E41406E004321D4 /* kortlekTests */,
+				4978626E1E41406E004321D4 /* kortlekUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4978624E1E41406E004321D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4978625E1E41406E004321D4 /* LaunchScreen.storyboard in Resources */,
+				4978625B1E41406E004321D4 /* Assets.xcassets in Resources */,
+				497862591E41406E004321D4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		497862621E41406E004321D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4978626D1E41406E004321D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4978624C1E41406E004321D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				497862561E41406E004321D4 /* ViewController.swift in Sources */,
+				497862541E41406E004321D4 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		497862601E41406E004321D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				497862691E41406E004321D4 /* kortlekTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4978626B1E41406E004321D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				497862741E41406E004321D4 /* kortlekUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		497862661E41406E004321D4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4978624F1E41406E004321D4 /* kortlek */;
+			targetProxy = 497862651E41406E004321D4 /* PBXContainerItemProxy */;
+		};
+		497862711E41406E004321D4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4978624F1E41406E004321D4 /* kortlek */;
+			targetProxy = 497862701E41406E004321D4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		497862571E41406E004321D4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				497862581E41406E004321D4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4978625C1E41406E004321D4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4978625D1E41406E004321D4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		497862761E41406E004321D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		497862771E41406E004321D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		497862791E41406E004321D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = F6VSMN9TJS;
+				INFOPLIST_FILE = kortlek/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = se.comhem.hammarqvist.kortlek;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		4978627A1E41406E004321D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = F6VSMN9TJS;
+				INFOPLIST_FILE = kortlek/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = se.comhem.hammarqvist.kortlek;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		4978627C1E41406E004321D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = F6VSMN9TJS;
+				INFOPLIST_FILE = kortlekTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = se.comhem.hammarqvist.kortlekTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/kortlek.app/kortlek";
+			};
+			name = Debug;
+		};
+		4978627D1E41406E004321D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = F6VSMN9TJS;
+				INFOPLIST_FILE = kortlekTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = se.comhem.hammarqvist.kortlekTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/kortlek.app/kortlek";
+			};
+			name = Release;
+		};
+		4978627F1E41406E004321D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = F6VSMN9TJS;
+				INFOPLIST_FILE = kortlekUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = se.comhem.hammarqvist.kortlekUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = kortlek;
+			};
+			name = Debug;
+		};
+		497862801E41406E004321D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = F6VSMN9TJS;
+				INFOPLIST_FILE = kortlekUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = se.comhem.hammarqvist.kortlekUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = kortlek;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4978624B1E41406E004321D4 /* Build configuration list for PBXProject "kortlek" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				497862761E41406E004321D4 /* Debug */,
+				497862771E41406E004321D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		497862781E41406E004321D4 /* Build configuration list for PBXNativeTarget "kortlek" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				497862791E41406E004321D4 /* Debug */,
+				4978627A1E41406E004321D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4978627B1E41406E004321D4 /* Build configuration list for PBXNativeTarget "kortlekTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4978627C1E41406E004321D4 /* Debug */,
+				4978627D1E41406E004321D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4978627E1E41406E004321D4 /* Build configuration list for PBXNativeTarget "kortlekUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4978627F1E41406E004321D4 /* Debug */,
+				497862801E41406E004321D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 497862481E41406E004321D4 /* Project object */;
+}
