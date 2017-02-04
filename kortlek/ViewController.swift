@@ -21,5 +21,16 @@ class ViewController: UIViewController {
     }
 
 
+    var kortlek = Kortlek()
+    
+
+    
+    @IBAction func btnTest(_ sender: Any) {
+        lblTest.text = String("test färg \(kortlek.kort[2].färg.enkelBeskrivning())  antal kort:\(kortlek.kort.count)")
+        //kortlek.blanda()
+        
+       // let antal2 =
+    }
+    @IBOutlet weak var lblTest: UILabel!
 }
 

@@ -14,6 +14,7 @@
 		4978625E1E41406E004321D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4978625C1E41406E004321D4 /* LaunchScreen.storyboard */; };
 		497862691E41406E004321D4 /* kortlekTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 497862681E41406E004321D4 /* kortlekTests.swift */; };
 		497862741E41406E004321D4 /* kortlekUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 497862731E41406E004321D4 /* kortlekUITests.swift */; };
+		497862821E4140A4004321D4 /* kortlekModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 497862811E4140A4004321D4 /* kortlekModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		4978626F1E41406E004321D4 /* kortlekUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = kortlekUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		497862731E41406E004321D4 /* kortlekUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kortlekUITests.swift; sourceTree = "<group>"; };
 		497862751E41406E004321D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		497862811E4140A4004321D4 /* kortlekModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = kortlekModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				4978625A1E41406E004321D4 /* Assets.xcassets */,
 				4978625C1E41406E004321D4 /* LaunchScreen.storyboard */,
 				4978625F1E41406E004321D4 /* Info.plist */,
+				497862811E4140A4004321D4 /* kortlekModel.swift */,
 			);
 			path = kortlek;
 			sourceTree = "<group>";
@@ -264,6 +267,7 @@
 			files = (
 				497862561E41406E004321D4 /* ViewController.swift in Sources */,
 				497862541E41406E004321D4 /* AppDelegate.swift in Sources */,
+				497862821E4140A4004321D4 /* kortlekModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
