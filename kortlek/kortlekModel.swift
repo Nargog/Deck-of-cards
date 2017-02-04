@@ -15,14 +15,14 @@ enum Valör : Int {
     
     func enkelBeskrivning() -> String{
         switch self {
-        case .ess:
+        case .ess:   //Ace
             return "ess"
         case .knekt:
-            return "knekt"
+            return "knekt" //knight
         case .dam:
-            return "dam"
+            return "dam"  //queen
         case .kung:
-            return "kung"
+            return "kung" //king
         default:
             return String(self.rawValue)
         }
@@ -34,13 +34,13 @@ enum Färg: Int {
     case spader = 1, hjärter, ruter, klöver
     func enkelBeskrivning() -> String {
         switch self {
-        case .spader:
+        case .spader: // spades
             return "♠️"
-        case .hjärter:
+        case .hjärter: //hearts
             return "♥️"
-        case .ruter:
+        case .ruter:   //diamonds
             return "♦️"
-        case .klöver:
+        case .klöver: //clubs
             return "♣️"
         }
     }
@@ -48,15 +48,16 @@ enum Färg: Int {
 }
 
 struct Card {
-    let färg : Färg
-    let valör : Valör
+    let färg : Färg  //Color
+    let valör : Valör //value
 }
 
 
 
 struct Kortlek {
     var kort = [Card]()
-    
+  
+    // Just a simple function to test shuffling the deck
     mutating func blanda () {
         var tempKort = self.kort[2]
         self.kort[2] = self.kort[3]
@@ -64,7 +65,7 @@ struct Kortlek {
         tempKort = self.kort[3]
         
     }
-    
+ // set up a deck with cards in order
     init () {
         for tempFärg in Färg.allValues {
             for tempValör in Valör.allValues {
