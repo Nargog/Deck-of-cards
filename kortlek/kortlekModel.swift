@@ -59,6 +59,20 @@ struct Kortlek {
   
     // Just a simple function to test shuffling the deck
     mutating func blanda () {
+       
+        /*  TODO
+         
+         func shuffleDeck(var deckShuffled:[String]) -> [String] {
+         
+         for var i = deckShuffled.count-1; i > 0; i-- {
+         let j = Int(arc4random_uniform(UInt32(i+1)))
+         (deckShuffled[i], deckShuffled[j]) = (deckShuffled[j], deckShuffled[i])
+         }
+         return deckShuffled
+         }
+         
+         */
+        
         var tempKort = self.kort[2]
         self.kort[2] = self.kort[3]
         self.kort[3] = tempKort
