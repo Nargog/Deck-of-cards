@@ -22,12 +22,30 @@ class ViewController: UIViewController {
 
 
     var kortlek = Kortlek()
+    var handOfCards = [Card]()
     
 
     
     @IBAction func btnTest(_ sender: Any) {
-        lblTest.text = String("test färg \(kortlek.kort[2].färg.enkelBeskrivning())  antal kort:\(kortlek.kort.count)")
-        //kortlek.blanda()
+        lblTest.text = String("test:\(kortlek.kort[2].färg.enkelBeskrivning())\(kortlek.kort[2].valör.enkelBeskrivning())")
+        
+        print("oblandat \n")
+        
+        //shuffle
+        kortlek.blanda() //Class method
+        
+        print("blandat \n")
+        
+        //test to add cards to a hand of cards TODO make this a class method to draw a card
+        
+        for i in ((0 + 1)...self.kortlek.kort.count-1) {
+           // print (kortlek.kort)
+            handOfCards.append(kortlek.kort[i])
+            
+            //handOfCards?.kort.append(kortlek.kort[i])
+            
+        }
+        print("<\(handOfCards)>")
         
        // let antal2 =
     }
